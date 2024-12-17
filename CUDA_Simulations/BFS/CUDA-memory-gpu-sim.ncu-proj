@@ -1,0 +1,95 @@
+{
+    "extension": "ncu-proj",
+    "files": [
+        {
+            "path": "C:/Users/joelk/OneDrive/Documents/NVIDIA Nsight Compute/report1.nsys-rep"
+        },
+        {
+            "path": "C:/Users/joelk/OneDrive/Documents/NVIDIA Nsight Compute/report2.nsys-rep"
+        }
+    ],
+    "launcher": {
+        "activity/interactiveprofile/cachecontrol": "Flush All",
+        "activity/interactiveprofile/clockcontrol": "Base",
+        "activity/interactiveprofile/disableprofilingstartstop": false,
+        "activity/interactiveprofile/enablecpustacksupport": true,
+        "activity/interactiveprofile/enablenvtxsupport": true,
+        "activity/interactiveprofile/enableprofilingfromstart": true,
+        "activity/interactiveprofile/graphprofiling": "Node",
+        "activity/interactiveprofile/importsource": false,
+        "activity/occupancycalculator/file": "",
+        "activity/profile/applyrules": true,
+        "activity/profile/appreplaybuffer": "File",
+        "activity/profile/appreplaymatch": "Grid",
+        "activity/profile/appreplaymode": "Strict",
+        "activity/profile/cachecontrol": "Flush All",
+        "activity/profile/checkexitcode": true,
+        "activity/profile/clockcontrol": "Base",
+        "activity/profile/devices": "",
+        "activity/profile/disableprofilingstartstop": false,
+        "activity/profile/enablecpustacksupport": false,
+        "activity/profile/enablenvtxsupport": false,
+        "activity/profile/enableprofilingfromstart": true,
+        "activity/profile/filtermode": "Global",
+        "activity/profile/forceoverwrite": true,
+        "activity/profile/graphprofiling": "Node",
+        "activity/profile/importsource": false,
+        "activity/profile/kernelid": "",
+        "activity/profile/kernelname": "Kernel",
+        "activity/profile/kernelnamebase": "Function",
+        "activity/profile/kill": false,
+        "activity/profile/launchcapturecount": 1,
+        "activity/profile/launchskipbeforematchcount": 0,
+        "activity/profile/launchskipcount": 8,
+        "activity/profile/nvtxincludeexcludeoptions": "",
+        "activity/profile/outputfile": "report%i",
+        "activity/profile/pmsamplingbuffersize": 0,
+        "activity/profile/pmsamplinginterval": 0,
+        "activity/profile/rangefilteroptions": "",
+        "activity/profile/rangereplayoptions": "",
+        "activity/profile/replaymode": "Kernel",
+        "activity/profile/samplingBufferSize": 33554432,
+        "activity/profile/samplingInterval": 5,
+        "activity/profile/samplingIntervalAuto": true,
+        "activity/profile/samplingMaxPasses": 5,
+        "activity/profile/sourcefolders": "",
+        "activity/profile/targetprocesses": "All",
+        "activity/systemtrace/gpu_metrics/collect_gpu_metrics": true,
+        "activity/systemtrace/gpu_metrics/devices": [
+            0
+        ],
+        "activity/systemtrace/gpu_metrics/metrics_set": 3,
+        "activity/systemtrace/nvtx/range_hotkey_value": 122,
+        "activity/systemtrace/nvvideo/collect_nvvideo": false,
+        "activity/systemtrace/sampling/sampling_rate_windows": 8000,
+        "activity/systemtrace/target/app_selection_method": "SpecifyProcessName",
+        "activity/systemtrace/target/arguments": "",
+        "activity/systemtrace/target/attach_mode": "LaunchAnother",
+        "activity/systemtrace/target/command_line": "\"D:/Joel/MS ECE/Fall 23/Courses/CompArch1/Projects/Final Project/NVIDIA Github/cuda-samples/bin/win64/Debug/UnifiedMemoryPerf.exe\" ",
+        "activity/systemtrace/target/process_name": "D:/Joel/MS ECE/Fall 23/Courses/CompArch1/Projects/Final Project/NVIDIA Github/cuda-samples/bin/win64/Debug/UnifiedMemoryPerf.exe",
+        "activity/systemtrace/target/working_directory": "D:/Joel/MS ECE/Fall 23/Courses/CompArch1/Projects/Final Project/NVIDIA Github/cuda-samples/bin/win64/Debug",
+        "platform/linux (x86_64)/device": "",
+        "platform/linux/arguments": "",
+        "platform/linux/autoconnect": true,
+        "platform/linux/environment": "",
+        "platform/linux/executable": "",
+        "platform/linux/workingdir": "",
+        "platform/win32/arguments": "",
+        "platform/win32/arguments/history": [
+            "data\\bfs\\graph1MW_6.txt"
+        ],
+        "platform/win32/autoconnect": true,
+        "platform/win32/environment": "",
+        "platform/win32/executable": "D:/Joel/MS ECE/Fall 23/Courses/CompArch1/Projects/Final Project/NVIDIA Github/cuda-samples/bin/win64/Debug/UnifiedMemoryPerf.exe",
+        "platform/win32/executable/history": [
+            "D:/Workspace/CUDA/Rodinia/bin/win64/Debug/bfs.exe"
+        ],
+        "platform/win32/workingdir": "D:/Joel/MS ECE/Fall 23/Courses/CompArch1/Projects/Final Project/NVIDIA Github/cuda-samples/bin/win64/Debug",
+        "platform/win32/workingdir/history": [
+            "D:/Workspace/CUDA/Rodinia/bin/win64/Debug"
+        ],
+        "platform/windows/device": "localhost"
+    },
+    "uuid": "{29339729-886a-4924-a8cc-39c7f089b87d}",
+    "version": "1.0"
+}
